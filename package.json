@@ -8,7 +8,8 @@
     "server": "webpack-dev-server --config webpack.config.js --open",
     "build": "node_modules/.bin/webpack",
     "watch": "node_modules/.bin/webpack --watch",
-    "styles": "node_modules/.bin/sass sass/src/index.scss sass/dist/styles.css --watch"
+    "styles": "node_modules/.bin/sass sass/src/index.scss sass/dist/styles.css --watch",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "eslint-loader": "^2.1.2",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
+    "jest": "^24.1.0",
     "sass": "^1.17.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",

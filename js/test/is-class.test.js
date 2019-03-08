@@ -5,7 +5,7 @@ test('class is a class', () => {
         constructor() {
         }
     }
-    expect(isClass(Test).toBe(true);
+    expect(isClass(Test)).toBe(true);
 });
 
 test('function is not a class', () => {

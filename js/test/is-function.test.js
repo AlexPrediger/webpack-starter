@@ -9,7 +9,7 @@ test('class is not a function', () => {
         constructor() {
         }
     }
-    expect(isFunction(Test).toBe(false);
+    expect(isFunction(Test)).toBe(false);
 });
 
 test('number is not a function', () => {
